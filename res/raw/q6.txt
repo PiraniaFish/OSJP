@@ -1,0 +1,14 @@
+Given:
+1. public class Electronic implements Device
+   { public void doIt() { } }
+2.
+3. abstract class Phone1 extends Electronic { }
+4.
+5. abstract class Phone2 extends Electronic
+        { public void doIt(int x) { } }
+6.
+7. class Phone3 extends Electronic implements Device
+        { public void doStuff() { } }
+8.
+9. interface Device { public void doIt(); }
+  What is the result? (Choose all that apply.)

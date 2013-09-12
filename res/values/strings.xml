@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OSJP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="q1">Which is true? (Choose all that apply.)</string>
+    <string name="q1_A">&quot;X extends Y&quot; is correct if and only if X is a class and Y is an interface</string>
+    <string name="q1_B">&quot;X extends Y&quot; is correct if and only if X is an interface and Y is a class</string>
+    <string name="q1_C">&quot;X extends Y&quot; is correct if X and Y are either both classes or both interfaces</string>
+    <string name="q1_D">&quot;X extends Y&quot; is correct for all combinations of X and Y being classes and/or interfaces</string>
+    <string name="q2">Which method names follow the JavaBeans standard? (Choose all that apply.)</string>
+    <string name="q2_A">addSize</string>
+    <string name="q2_B">getCust</string>
+    <string name="q2_C">deleteRep</string>
+    <string name="q2_D">isColorado</string>
+    <string name="q2_E">putDimensions</string>
+    <string name="q3">Given:\n1. class Voop {\n2. public static void main(String [] args) {\n3. doStuff(1);\n4. doStuff(1,2);\n5. }\n6. // insert code here\n7. }\nWhich, inserted independently at line 6, will compile? (Choose all that apply.)</string>
+    <string name="q3_A">A. static void doStuff(int... doArgs) { }</string>
+    <string name="q3_B">B. static void doStuff(int[] doArgs) { }</string>
+    <string name="q3_C">C. static void doStuff(int doArgs...) { }</string>
+    <string name="q3_D">D. static void doStuff(int... doArgs, int y) { }</string>
+    <string name="q3_E">E. static void doStuff(int x, int... doArgs) { }</string>
+    <string name="submit_button">Submit answer</string>
+    <string name="q4">1. enum Animals {\n2. DOG(&quot;woof&quot;), CAT(&quot;meow&quot;), FISH(&quot;burble&quot;);\n3. String sound;\n4. Animals(String s) { sound = s; }\n5. }\n6. class TestEnum {\n7. static Animals a;\n8. public static void main(String[] args) {\n9. System.out.println(a.DOG.sound + &quot; &quot; + a.FISH.sound);\n10. }\n11. }\nWhat is the result?</string>
+    <string name="q4_A">A. woof burble</string>
+    <string name="q4_B">B. Multiple compilation errors</string>
+    <string name="q4_C">C. Compilation fails due to an error on line 2</string>
+    <string name="q4_D">D. Compilation fails due to an error on line 3</string>
+    <string name="q4_E">E. Compilation fails due to an error on line 4</string>
+    <string name="q4_F">F. Compilation fails due to an error on line 9</string>
+    <string name="q5">Given two files:\n1. package pkgA;\n2. public class Foo {\n3. int a = 5;\n4. protected int b = 6;\n5. public int c = 7;\n6. }\n\n3. package pkgB;\n4. import pkgA.*;\n5. public class Baz {\n6. public static void main(String[] args) {\n7. Foo f = new Foo();\n8. System.out.print(&quot; &quot; + f.a);\n9. System.out.print(&quot; &quot; + f.b);\n10. System.out.println(&quot; &quot; + f.c);\n11. }\n12. }\nWhat is the result? (Choose all that apply.)</string>
+    <string name="q5_A">A. 5 6 7</string>
+    <string name="q5_B">B. 5 followed by an exception</string>
+    <string name="q5_C">C. Compilation fails with an error on line 7</string>
+    <string name="q5_D">D. Compilation fails with an error on line 8</string>
+    <string name="q5_E">E. Compilation fails with an error on line 9</string>
+    <string name="q5_F">F. Compilation fails with an error on line 10</string>
+    <string name="q6_A">A. Compilation succeeds</string>
+    <string name="q6_B">B. Compilation fails with an error on line 1</string>
+    <string name="q6_C">C. Compilation fails with an error on line 3</string>
+    <string name="q6_D">D. Compilation fails with an error on line 5</string>
+    <string name="q6_E">E. Compilation fails with an error on line 7</string>
+    <string name="q6_F">F. Compilation fails with an error on line 9</string>
+    <string name="q7_A">A. Compilation succeeds</string>
+    <string name="q7_B">B. Compilation fails with an error on line 6</string>
+    <string name="q7_C">C. Compilation fails with an error on line 7</string>
+    <string name="q7_D">D. Compilation fails with an error on line 8</string>
+    <string name="q7_E">E. Compilation fails with an error on line 9</string>
+    <string name="q7_F">F. Compilation fails with an error on line 10</string>
+    
+    <string name="q8_A">A. TUE</string>
+    <string name="q8_B">B. WED</string>
+    <string name="q8_C">C. The output is unpredictable</string>
+    <string name="q8_D">D. Compilation fails with an error on line 4</string>
+    <string name="q8_E">E. Compilation fails with an error on line 6</string>
+    <string name="q8_F">F. Compilation fails with an error on line 8</string>
+    <string name="q8_G">F. Compilation fails with an error on line 9</string>
+    
+    <string name="q9_A">A. 13</string>
+    <string name="q9_B">B. Compilation fails due to multiple errors</string>
+    <string name="q9_C">C. Compilation fails with an error on line 6</string>
+    <string name="q9_D">D. Compilation fails with an error on line 7</string>
+    <string name="q9_E">E. Compilation fails with an error on line 11</string>
+
+</resources>

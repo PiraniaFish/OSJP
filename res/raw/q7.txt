@@ -1,0 +1,11 @@
+Given:
+4. class Announce {
+5. public static void main(String[] args) {
+6. for(int __x = 0; __x < 3; __x++) ;
+7. int #lb = 7;
+8. long [] x [5];
+9. Boolean []ba[];
+10. enum Traffic { RED, YELLOW, GREEN };
+11. }
+12. }
+What is the result? (Choose all that apply.)

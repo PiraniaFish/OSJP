@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ScrollView 
+    android:id="@+id/ScrollLayout_Q3"
+   android:layout_width="match_parent"
+        android:layout_height="wrap_content"  >
+
+<LinearLayout
+   android:id="@+id/linearStoScroll_Q3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q3" />
+
+    <CheckBox
+        android:id="@+id/Q3_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/q3_A" />
+
+    <CheckBox
+        android:id="@+id/Q3_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q3_B" />
+
+    <CheckBox
+        android:id="@+id/Q3_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q3_C" />
+
+    <CheckBox
+        android:id="@+id/Q3_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q3_D" />
+
+    <CheckBox
+        android:id="@+id/Q3_E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q3_E" />
+
+    <Button
+        android:id="@+id/submit_Q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit_button" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

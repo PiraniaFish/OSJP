@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ScrollView 
+    android:id="@+id/ScrollLayout_Q9"
+   android:layout_width="match_parent"
+        android:layout_height="wrap_content"  >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Q9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp" />
+
+    <CheckBox
+        android:id="@+id/q9_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q9_A" />
+"
+
+    <CheckBox
+        android:id="@+id/q9_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q9_B" />
+
+    <CheckBox
+        android:id="@+id/q9_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q9_C" />
+
+    <CheckBox
+        android:id="@+id/q9_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q9_D" />
+
+    <CheckBox
+        android:id="@+id/q9_E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q9_E" />
+
+    <Button
+        android:id="@+id/Submit_q9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit_button" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

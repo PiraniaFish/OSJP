@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ScrollView 
+    android:id="@+id/ScrollLayout_Q7"
+   android:layout_width="match_parent"
+        android:layout_height="wrap_content"  >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp" />
+
+    <CheckBox
+        android:id="@+id/q7_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q7_A" />
+"
+
+    <CheckBox
+        android:id="@+id/q7_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q7_B" />
+
+    <CheckBox
+        android:id="@+id/q7_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q7_C" />
+
+    <CheckBox
+        android:id="@+id/q7_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/q7_D" />
+
+    <CheckBox
+        android:id="@+id/q7_E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q7_E" />
+
+    <CheckBox
+        android:id="@+id/q7_F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q7_F" />
+
+    <Button
+        android:id="@+id/Submit_q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit_button" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
