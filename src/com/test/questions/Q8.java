@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.test.osjp.R;
+import com.test.scjp.R;
 
 public class Q8 extends Fragment {
     

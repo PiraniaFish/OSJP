@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.test.osjp"
+    package="com.test.scjp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -23,9 +23,9 @@
             </intent-filter>
         </activity>
          <activity android:name="com.test.utils.Score_page"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name="com.test.scjp.MainActivity"></activity>
         <activity android:name="com.test.oop.MainActivity_OOP"></activity>
-        <activity android:name=".MainPage"></activity>
+        <activity android:name="com.test.scjp.MainPage"></activity>
         
     </application>
 

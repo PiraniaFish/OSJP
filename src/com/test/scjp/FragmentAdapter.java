@@ -1,4 +1,4 @@
-package com.test.osjp;
+package com.test.scjp;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

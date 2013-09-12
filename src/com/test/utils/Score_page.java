@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.test.osjp.R;
+import com.test.scjp.R;
 
 public class Score_page extends Activity {
 TextView final_score;

@@ -1,17 +1,13 @@
 package com.test.oop;
 
-import com.viewpagerindicator.PageIndicator;
-import com.viewpagerindicator.TitlePageIndicator;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
-import android.widget.Button;
 
-import com.test.osjp.R;
-import com.test.osjp.R.id;
-import com.test.osjp.R.layout;
-import com.test.osjp.R.menu;
+import com.test.scjp.R;
+import com.viewpagerindicator.PageIndicator;
+import com.viewpagerindicator.TitlePageIndicator;
 
 public class MainActivity_OOP extends FragmentActivity {
     

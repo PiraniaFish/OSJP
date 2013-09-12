@@ -1,12 +1,5 @@
 package com.test.utils;
 
-import com.test.oop.MainActivity_OOP;
-import com.test.osjp.MainActivity;
-import com.test.osjp.R;
-import com.test.osjp.R.id;
-import com.test.osjp.R.layout;
-import com.test.osjp.R.menu;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +7,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import com.test.oop.MainActivity_OOP;
+import com.test.scjp.MainActivity;
+import com.test.scjp.R;
 
 public class MainPage extends Activity {
 
